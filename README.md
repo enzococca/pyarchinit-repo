@@ -1,6 +1,6 @@
 # PyArchInit Plugin Repository
 
-Repository personalizzato per l'installazione e aggiornamento di PyArchInit tramite QGIS Plugin Manager.
+Repository personale per l'installazione di PyArchInit (versione development) tramite QGIS Plugin Manager.
 
 ## Come Aggiungere questo Repository in QGIS
 
@@ -9,31 +9,30 @@ Repository personalizzato per l'installazione e aggiornamento di PyArchInit tram
 3. Clicca sulla tab **Impostazioni**
 4. Nella sezione "Repository di plugin", clicca **Aggiungi...**
 5. Inserisci:
-   - **Nome**: `PyArchInit Dev Repository`
+   - **Nome**: `PyArchInit Dev`
    - **URL**: `https://raw.githubusercontent.com/enzococca/pyarchinit-repo/main/plugins.xml`
 6. Clicca **OK**
-7. Spunta **Mostra anche plugin sperimentali** per vedere pyarchinit-dev
+7. Vai su "Tutto" e cerca `pyarchinit`
+8. Installa la versione 4.9.6
 
-## Plugin Disponibili
+## Plugin Disponibile
 
-| Plugin | Versione | Tipo | Note |
-|--------|----------|------|------|
-| **pyarchinit** | 4.0.0 | Stable | Versione ufficiale da pyarchinit/pyarchinit master |
-| **pyarchinit-dev** | 4.1.0-dev | Development | Branch cloudinary-integration |
+| Plugin | Versione | Branch | Note |
+|--------|----------|--------|------|
+| **pyarchinit** | 4.9.6 | feature/cloudinary-integration | Versione development con nuove funzionalita |
 
-## ⚠️ ATTENZIONE
+## Funzionalita della versione dev
 
-**La versione DEV utilizza un database MODIFICATO!**
-
-- NON installare pyarchinit-dev su un database di produzione
-- Le due versioni NON sono compatibili tra loro
-- Usare pyarchinit-dev solo per test su database separato
+- AI Query Database migliorato
+- Nuovi bottoni toolbar (Text2SQL, Ricerca Avanzata, etc.)
+- Integrazione Cloudinary per media
+- Correzioni bug vari
 
 ## Aggiornamenti
 
 Per aggiornare il plugin:
 1. Vai su **Plugin → Gestisci e Installa Plugin**
-2. Clicca su **Aggiorna tutto** o seleziona il singolo plugin
+2. Clicca su **Aggiorna tutto** o seleziona pyarchinit
 
 ## Contatti
 
