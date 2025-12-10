@@ -3,7 +3,7 @@
     <!-- ============================================ -->
     <!-- PyArchInit - Stable Release (Master Branch) -->
     <!-- ============================================ -->
-    <pyqgis_plugin name="pyarchinit" version="4.0.0">
+    <pyqgis_plugin name="pyarchinit" version="4.9.5">
         <description><![CDATA[PyArchInit - Archaeological Data Management System for QGIS. Comprehensive tools for managing excavations, stratigraphic units, finds, and documentation.]]></description>
         <about><![CDATA[PyArchInit is a complete archaeological information system integrated with QGIS.
 
@@ -17,7 +17,7 @@ Features:
 - Multi-database support (PostgreSQL/SQLite)
 
 This is the STABLE version from the official repository.]]></about>
-        <version>4.0.0</version>
+        <version>4.9.5</version>
         <qgis_minimum_version>3.22</qgis_minimum_version>
         <qgis_maximum_version>3.99</qgis_maximum_version>
         <homepage>https://github.com/pyarchinit/pyarchinit</homepage>
