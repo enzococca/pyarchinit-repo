@@ -54,7 +54,7 @@ Nuove funzionalita:
 - Correzioni bug vari
 
 Usare SOLO per test o su database separato!]]></about>
-        <version>..1-dev</version>
+        <version>4.1.1-dev</version>
         <qgis_minimum_version>3.22</qgis_minimum_version>
         <qgis_maximum_version>3.99</qgis_maximum_version>
         <homepage>https://github.com/pyarchinit/pyarchinit</homepage>
