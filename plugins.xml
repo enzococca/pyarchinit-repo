@@ -40,8 +40,9 @@ This is the STABLE version from the official repository.]]></about>
     <!-- ============================================ -->
     <!-- PyArchInit - Development Version (Cloudinary) -->
     <!-- ATTENZIONE: Database NON compatibile con versione stable! -->
+    <!-- NOTA: Usa stesso nome "pyarchinit" - disinstallare stable prima! -->
     <!-- ============================================ -->
-    <pyqgis_plugin name="pyarchinit-dev" version="4.1.0-dev">
+    <pyqgis_plugin name="pyarchinit" version="4.9.6">
         <description><![CDATA[PyArchInit DEV - Versione di sviluppo con nuove funzionalita. ATTENZIONE: Database NON compatibile con versione stable!]]></description>
         <about><![CDATA[⚠️ VERSIONE DI SVILUPPO ⚠️
 
@@ -58,7 +59,7 @@ Usare SOLO per test o su database separato!]]></about>
         <qgis_minimum_version>3.22</qgis_minimum_version>
         <qgis_maximum_version>3.99</qgis_maximum_version>
         <homepage>https://github.com/pyarchinit/pyarchinit</homepage>
-        <file_name>pyarchinit-dev.zip</file_name>
+        <file_name>pyarchinit.zip</file_name>
         <icon>https://raw.githubusercontent.com/pyarchinit/pyarchinit/master/resources/icons/IconPAI.png</icon>
         <author_name>Luca Mandolesi, Enzo Cocca</author_name>
         <download_url>https://github.com/enzococca/pyarchinit-repo/raw/main/releases/pyarchinit-dev-4.9.6.zip</download_url>
