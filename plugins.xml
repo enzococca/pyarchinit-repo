@@ -61,7 +61,7 @@ Usare SOLO per test o su database separato!]]></about>
         <file_name>pyarchinit-dev.zip</file_name>
         <icon>https://raw.githubusercontent.com/pyarchinit/pyarchinit/master/resources/icons/IconPAI.png</icon>
         <author_name>Luca Mandolesi, Enzo Cocca</author_name>
-        <download_url>https://github.com/pyarchinit/pyarchinit/archive/refs/heads/feature/cloudinary-integration.zip</download_url>
+        <download_url>https://github.com/enzococca/pyarchinit-repo/raw/main/releases/pyarchinit-dev-4.9.6.zip</download_url>
         <uploaded_by>enzococca</uploaded_by>
         <create_date>2024-12-10</create_date>
         <update_date>2025-12-10</update_date>
