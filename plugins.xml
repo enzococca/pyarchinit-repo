@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugins>
+    <!-- ============================================ -->
+    <!-- PyArchInit - Development Version (Cloudinary) -->
+    <!-- Repository personale enzococca per versione dev -->
+    <!-- ============================================ -->
+    <pyqgis_plugin name="pyarchinit" version="4.9.15">
+        <description><![CDATA[PyArchInit - Sistema di gestione dati archeologici per QGIS. Versione con nuove funzionalita (AI Query, Cloudinary, etc.)]]></description>
+        <about><![CDATA[PyArchInit - Sistema informativo archeologico integrato con QGIS.
+
+Funzionalita:
+- Gestione unita stratigrafiche (US/USM/WSU)
+- Generazione Harris Matrix
+- Inventario reperti
+- Schede sepolture
+- Gestione Periodi/Fasi
+- Generazione report PDF
+- AI Query Database
+- Integrazione Cloudinary per media
+- Supporto multi-database (PostgreSQL/SQLite)
+
+Versione dal branch feature/cloudinary-integration.]]></about>
+        <version>4.9.15</version>
+        <qgis_minimum_version>3.22</qgis_minimum_version>
+        <qgis_maximum_version>3.99</qgis_maximum_version>
+        <homepage>https://github.com/pyarchinit/pyarchinit</homepage>
+        <file_name>pyarchinit.zip</file_name>
+        <icon>https://raw.githubusercontent.com/pyarchinit/pyarchinit/master/resources/icons/IconPAI.png</icon>
+        <author_name>Luca Mandolesi, Enzo Cocca</author_name>
+        <download_url>https://github.com/enzococca/pyarchinit-repo/raw/main/releases/pyarchinit-dev-4.9.15.zip</download_url>
+        <uploaded_by>enzococca</uploaded_by>
+        <create_date>2024-12-10</create_date>
+        <update_date>2025-12-18</update_date>
+        <experimental>False</experimental>
+        <deprecated>False</deprecated>
+        <tracker>https://github.com/pyarchinit/pyarchinit/issues</tracker>
+        <repository>https://github.com/pyarchinit/pyarchinit/tree/feature/cloudinary-integration</repository>
+        <tags>archaeology,excavation,stratigraphy,harris matrix,database,gis,qgis</tags>
+        <category>Database</category>
+        <server>False</server>
+    </pyqgis_plugin>
+</plugins>
